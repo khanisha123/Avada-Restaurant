@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+a{
+    text-decoration: none;
 
 }
 
@@ -217,20 +220,17 @@ body{
 } 
 /* Header End */ 
 
-
-/* Main Start */
-
 /* Section 1 Start */
-.Section1-ImageSide {
+.Section1-ImageSide-Reservation {
     background-color: black;
     width: 100%;
     height: 418.97px;
     position: absolute;
 }
-.Section1-ImageSide img{
+.Section1-ImageSide-Reservation img{
     opacity: 0.3;
 }
-.Section1-TextSide h6{
+.Section1-TextSide-Reservation h6{
     color: white;
     font-size: 20px;
     font-family: 'Lora', serif;
@@ -238,13 +238,13 @@ body{
     margin-bottom: 34px;
 
 }
-.Section1-TextSide h1{
+.Section1-TextSide-Reservation h1{
     color: white;
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
 
 }
-.Section1-TextSide{
+.Section1-TextSide-Reservation{
 
     position: absolute;
     margin-top: 15%;
@@ -254,197 +254,176 @@ body{
 
 /* Section 2 Start */
 
-.Section2-ImageSide{
-    width: 502.08px;
-    height: 662.16px;
-}
-.Section2-ImageSide img{
-    position: absolute;
-    object-fit: cover;
-    transition: 0.5s ease-out;
-}
-.Section2-ImageSide img:hover{
-   transform: scale(1.03); 
-}
-
-.Section2-ImageSide  span{
-    position: absolute;
-    color: white;
-    margin-top: 46%;
-    margin-left: 10.7%;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bolder;
-    font-size: 19.5px;
-}
-.Section2-TextSide{
-    margin-top: 25px;
-}
-.Section2-TextSide p{
- font-size: 19px;
- color: black;
- white-space: pre-line;
- font-family: 'Lora', serif;
-
-}
-.Section2-TextSide h2{
-color: black;
-font-size: 70px;
-font-family: 'Bebas Neue', cursive;
-white-space: pre-line;
-}
-.Section2-TextSide span{
-font-size: 19px;
-font-family: 'Lora', serif;
-white-space: pre-line;
-color: black;
-}
 .Section2-ForFlex{
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 90px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 7%;
+    justify-content: space-between;
+    
 }
+.Section2-Right-Reservation{
+    margin-top: 22px;
+}
+.Section2-Left-FistSide-Reservation img{
+object-fit: cover;
+width: 406.02px;
+height: 202.97px;
+}
+.Section2-Left-FistSide-Reservation p{
+    font-size: 19px;
+    color:black;
+    font-family: 'Lora', serif;
+    white-space: pre-line;
 
-/* Section 2 End */
+}
+.Section2-Left-ContactSide-Reservation{
+    margin-top: 30px;
+}
+.Section2-Left-ContactSide-Reservation h2{
+    color: black;
+    font-size: 31px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 
-/* Section 3 Start */
-.Section3-ForFlexAndBackround{
-    background-color: black;
-    height: 979.44px;
-    width: 100%;
+}
+.Section2-Left-ContactSide-ForFlexNumberSide-Reservation i{
+    color: black;
+    font-size: 18px;
+    margin-right: 22.6px;
+    margin-top: 3px;
+
+}
+.Section2-Left-ContactSide-ForFlexNumberSide-Reservation p{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: black;
+}
+.Section2-Left-ContactSide-ForFlexNumberSide-Reservation {
     display: flex;
-    margin-top: 10%;
 
 }
-.Section3-ImageSide img{
-    width: 809.39px;
-    height: 979.44px;
-    object-fit: cover;
+.Section2-Left-ContactSide-SocialMedia-Border-Reservation{
+    border-radius: 50%;
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    padding-top: 15px;
+    text-align: center;
+    transition: 0.5s ease-out;
 }
-.Section3-LineAndText-Line{
-    width: 44.67px;
-    border: 1px solid white;
-    margin-bottom: 8px;
+.Section2-Left-ContactSide-SocialMedia-Border-Reservation i{
+    color: white;
+    font-size: 20px;
 }
-.Section3-LineAndText{
+
+.Section2-Left-ContactSide-SocialMedia-Reservation{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 10px;
+}
+.Section2-Left-ContactSide-SocialMedia-Border-Reservation:hover{
+
+    opacity: 0.7;
+}
+.Section2-Right-Flex-Reservation{
+    display: flex;
+}
+
+.Section2-Right-FlexInside-Reservation{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+.Section2-Right-FlexInside-Reservation label{
+    font-size: 19px;
+    color: black;
+    font-family: 'Lora', serif;
+    margin: 0px 0px 12.35px;
+}
+.Section2-Right-FlexInside-Reservation input{
+    width: 297.59px;
+    height: 50px;
+    background-color: #F2F2F2;
+    border: none;
+    margin-bottom: 30px;
+
+    
+}
+.Section2-Right-FlexInsideAdditional-Reservation input{
+    width: 625.16px;
+    height: 50px;
+}
+.Section2-Right-FlexInsideAdditional-Reservation textarea{
+    width: 625.16px;
+    height: 142px;
+    background-color: #F2F2F2;
+    border: none;
+
+
+}
+.Section2-Right-CheckboxSide-Reservation label{
+    font-size: 19px;
+    color: black;
+    font-family: 'Lora', serif;
+    padding-left:20px;
+}
+.Section2-Right-CheckboxSide-Reservation input{
+    width: 15px;
+    height: 15px;
+}
+.Section2-Right-CheckboxSide-Reservation {
+    margin-top: 29px;
     display: flex;
     align-items: center;
 }
-.Section3-LineAndText h6{
-    color: #D6D6D6;
+.Section2-Right-BorderButton-Reservation span{
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    font-family: 'Work Sans', sans-serif;
+    color: black;
+    
 }
-.Section3-TextSide .Section3-TextSide-ForMargin h2{
-    font-size: 95px;
-    font-family: 'Bebas Neue', cursive;
-    color: #FFFFFF;
-    white-space: pre-line;
-}
-.Section3-TextSide .Section3-TextSide-ForMargin p{
-    font-size: 19px;
-    font-family: 'Lora', serif;
-    color: #D6D6D6;
-    white-space: pre-line;
-}
-.Section3-TextSide-ForMargin {
-    margin-left: 75px;
-    margin-top: -80px;
-}
-.Section3-TextSide{
-    margin-left: 85px;
-    margin-top: 14%;
-}
-.Section3-Border span{
- color: white;
- font-family: 'Work Sans', sans-serif;
- font-size: 15px;
-}
-.Section3-Border{
-    border: 1px solid white;
+.Section2-Right-BorderButton-Reservation{
     padding: 13px 29px;
+    border: 1px solid #D6D6D6;
     display: inline-block;
     transition: 0.5s ease-out;
-    margin-top: 40px;
+    margin-top: 30px;
 }
-.Section3-Border:hover{
-    background-color: white;
+.Section2-Right-BorderButton-Reservation:hover{
+border-color:black ;
 }
-.Section3-Border:hover span{
-    color: black;
-}
+/* Section 2 End */
 
-/* Section 3 End */
 
-/* Section 4 Start */
-
-.Section4-ProductCard{
-    text-align: center;
-   
-}
-.Section4-ProductCard h2{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 31px;
-    color: black;
-    margin-bottom: -5px;
-}
-.Section4-ProductCard img{
-    margin-bottom: 20px;
-}
-.Section4-ProductCard p{
-    font-size: 17px;
-    color: black;
-    font-family: 'Lora', serif;
-    white-space: pre-line;
-    margin-bottom: 50px;
-    margin-top: -20px;
-}
-.Section4-ProductCard span{
-    border: 1px solid #D6D6D6;
-    padding: 13px 29px;
-    transition: 0.5s ease-out;
-}
-.Section4-ForFlex{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 80px;
-}
-.Section4-ProductCard span:hover{
-    border-color: black;
-}
-
-/* Section 4 End */
-
-/* Section 5 Start */
-.Section5-BackroundColor
+/* Section 3 Start */
+.Section3-BackroundColor-Reservation
 {
     background-color: black;
     margin-left: 9%;
     margin-right: 9%;
     width: 84%;
     height: 410.69px;
-    margin-top: 115px;
+    margin-top: 113px;
 }
-.Section5-ForFlex img{
+.Section3-ForFlex-Reservation img{
     object-fit: cover;
 }
-.Section5-TextSide h6{
+.Section3-TextSide-Reservation h6{
     color: white;
     font-size: 18px;
     font-family: 'Lora', serif;
     margin-bottom: 15px;
 }
-.Section5-TextSide h3{
+.Section3-TextSide-Reservation h3{
     color: white;
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
     margin-bottom: -10px;
 }
-.Section5-TextSide p{
+.Section3-TextSide-Reservation p{
     color:  white;
     white-space: pre-line;
     font-family: 'Lora', serif;
@@ -452,187 +431,39 @@ color: black;
     margin-bottom: 57px;
 
 }
-.Section5-TextSide{
+.Section3-TextSide-Reservation{
     margin-left: 80px;
     margin-top: 80px;
 }
-.Section5-ForFlex{
+.Section3-ForFlex-Reservation{
     display: flex;
    
 }
-.Section5-Border{
+.Section3-Border-Reservation{
     border: 1px solid white;
     padding: 13px 24px;
     display: inline;
     transition: 0.5s ease-out;
 }
-.Section5-Border span{
+.Section3-Border-Reservation span{
     color: white;
     transition: 0.5s ease-out;
+    font-family: 'Lora', serif;
+
 }
-.Section5-Border i{
+.Section3-Border-Reservation i{
     margin-right: 10px;
     color: white;
     transition: 0.5s ease-out;
 }
-.Section5-Border:hover{
+.Section3-Border-Reservation:hover{
     background-color: white;
 }
-.Section5-Border:hover i,
-.Section5-Border:hover span{
+.Section3-Border-Reservation:hover i,
+.Section3-Border-Reservation:hover span{
     color: black;
 }
-/* Section 5 End */
-
-/* Section 6 Start */
-.Section6 img{
-    object-fit: cover;
-    position: absolute;
-}
-.Section6{
-    margin-top: 93px;
-    position: relative;
-    height: 759.45px;
-    width: 100%;
-}
-.Section6-BackroundColor{
-    background-color: black;
-    width: 436.48px;
-    height: 734.7px;    
-    position: absolute;
-    padding-top: 70px;
-    padding-left: 70px;
-}
-.Section6-TextAndCostFlex h2{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 70px;
-    color: white;
-    white-space: pre-line;
-}
-.Section6-TextAndCostFlex h6{
-    font-size: 17px;
-    font-family: 'Work Sans', sans-serif;
-    color: #D6D6D6;
-    margin-top: 15px;
-}
-.Section6-TextAndCostFlex{
-    display: flex;
-}
-.Section6-BackroundColor span{
-    font-size: 19px;
-    font-family: 'Lora', serif;
-    color: #D6D6D6;
-    white-space: pre-line;
-}
-
-.Section6-BackroundColor p{
-    font-size: 15px;
-    color: white;
-    font-family: 'Work Sans', sans-serif;
-    transition: 0.5s ease-out;
-    padding: 13px 29px;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    margin-top: 35px;
-
-}
-.Section6-BackroundColor p:hover{
-    color: black;
-    background-color: white;
-
-}
-
-.Section6-Line{
-    border-top: 1px solid white;
-    width: 70px;
-    margin-top: 60px;
-    margin-bottom: 15px;
-}
-/* Section 6 End */
-
-/* Section 7 Start */
-.Section7-Header{
-    margin-top: 9%;
-    text-align: center;
-   
-}
-.Section7-Header i{
-    font-size: 46px;
-    color: black;
-    font-family: 'Lora', serif;
-}
-.Section7-Line{
-    width: 70px;
-    border-top: 1px solid #D6D6D6;
-    margin-left: 48%;
-    margin-top: 15px;
-}
-.Section7-ProductCard img{
-    width: 334.72px;
-    height: 546.63px;
-    object-fit: cover;
-    opacity: 0.3;
-    position: absolute;
-}
-.Section7-ProductCard:hover{
-    transform: scale(1.06); 
-}
-.Section7-ProductCard{
-    background-color: black;
-    width: 334.72px;
-    height: 546.63px;
-    transition: 0.5s ease-out;
-
-}
-.Section7-TextSide{
-    position: absolute;
-    width: 334.72px;
-    height: 546.63px;
-    text-align: center;
-    
-}
-.Section7-TextSide h6{
-    color: white;
-    margin-top: 95px;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 19px;
-}
-.Section7-TextSide h2{
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-}
-.Section7-TextSide p{
-    white-space: pre-line;
-    color: white;
-    font-family: 'Lora', serif;
-    font-size: 20px;
-    margin-top: 28px;
-    margin-bottom: 48px;
-}
-.Section7-TextSide span{
- background-color: black;
- padding: 13px 35px;
- color: white;
- font-family: 'Work Sans', sans-serif;
-}
-.Section7-ForFlex{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 100px;
-    margin-top: 50px;
-}
-/* Section 7 End */
-
-
-/* Main End */
-
-
-
-
+/* Section 3 End */
 
 /* Footer Start */
 
@@ -669,6 +500,9 @@ color: #D6D6D6;
     margin-left: 15px;
     transition: 0.5s ease-out;
     margin-top: 50px;
+
+
+
 }
 .Footer-SocialBorder i{
    font-size: 15px;
