@@ -219,16 +219,16 @@ body{
 /* Header End */ 
 
 /* Section 1 Start */
-.Section1-ImageSide {
+.Section1-ImageSide-ReceptionBar {
     background-color: black;
     width: 100%;
     height: 418.97px;
     position: absolute;
 }
-.Section1-ImageSide img{
+.Section1-ImageSide-ReceptionBar img{
     opacity: 0.3;
 }
-.Section1-TextSide h6{
+.Section1-TextSide-ReceptionBar h6{
     color: white;
     font-size: 20px;
     font-family: 'Lora', serif;
@@ -236,13 +236,13 @@ body{
     margin-bottom: 34px;
 
 }
-.Section1-TextSide h1{
+.Section1-TextSide-ReceptionBar h1{
     color: white;
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
 
 }
-.Section1-TextSide{
+.Section1-TextSide-ReceptionBar{
 
     position: absolute;
     margin-top: 15%;
@@ -251,19 +251,19 @@ body{
 /* Section 1 End */
 
 /* Section 2 Start */
-.Section2-TextSide h6{
+.Section2-TextSide-ReceptionBar h6{
 
     font-size: 15px;
     color: white;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-.Section2-TextSide p{
+.Section2-TextSide-ReceptionBar p{
     font-size: 19px;
     font-family: 'Lora', serif;
     color: #D6D6D6;
     white-space: pre-line;
 }
-.Section2-ForFlex{
+.Section2-ForFlex-ReceptionBar{
     display: flex;
     justify-content: space-evenly;
     padding-top: 9%;
@@ -272,87 +272,89 @@ body{
 
 /* Section 3 Start */
 
-.Section3-ForFlexAndBackround{
+.Section3-ForFlexAndBackround-ReceptionBar{
     background-color: black;
     height: 979.44px;
     width: 100%;
     display: flex;
 
 }
-.Section3-ImageSide img{
+.Section3-ImageSide-ReceptionBar img{
     width: 809.39px;
     height: 979.44px;
     object-fit: cover;
 }
-.Section3-LineAndText-Line{
+.Section3-LineAndText-Line-ReceptionBar{
     width: 44.67px;
     border: 1px solid white;
     margin-bottom: 8px;
 }
-.Section3-LineAndText{
+.Section3-LineAndText-ReceptionBar{
     display: flex;
     align-items: center;
 }
-.Section3-LineAndText h6{
+.Section3-LineAndText-ReceptionBar h6{
     color: #D6D6D6;
     font-size: 15px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
 }
-.Section3-TextSide .Section3-TextSide-ForMargin h2{
+.Section3-TextSide-ReceptionBar .Section3-TextSide-ForMargin-ReceptionBar h2{
     font-size: 95px;
     font-family: 'Bebas Neue', cursive;
     color: #FFFFFF;
     white-space: pre-line;
 }
-.Section3-TextSide .Section3-TextSide-ForMargin p{
+.Section3-TextSide-ReceptionBar .Section3-TextSide-ForMargin-ReceptionBar p{
     font-size: 19px;
     font-family: 'Lora', serif;
     color: #D6D6D6;
     white-space: pre-line;
 }
-.Section3-TextSide-ForMargin {
+.Section3-TextSide-ForMargin-ReceptionBar {
     margin-left: 75px;
     margin-top: -80px;
 }
-.Section3-TextSide{
+.Section3-TextSide-ReceptionBar{
     margin-left: 85px;
     margin-top: 14%;
 }
-.Section3-Border span{
+.Section3-Border-ReceptionBar span{
  color: white;
- font-family: 'Work Sans', sans-serif;
+ font-family: 'Lora', serif;
  font-size: 15px;
+ transition: 0.5s ease-out;
+
 }
-.Section3-Border{
+.Section3-Border-ReceptionBar{
     border: 1px solid white;
     padding: 13px 29px;
     display: inline-block;
     transition: 0.5s ease-out;
     margin-top: 40px;
 }
-.Section3-Border:hover{
+.Section3-Border-ReceptionBar:hover{
     background-color: white;
 }
-.Section3-Border:hover span{
+.Section3-Border-ReceptionBar:hover span{
     color: black;
 }
 /* Section 3 End */
 
 /* Section 4 Start */
-.Section4-ProductCard{
+.Section4-ProductCard-ReceptionBar{
     text-align: center;
    
 }
-.Section4-ProductCard h2{
+.Section4-ProductCard-ReceptionBar h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 31px;
     color: black;
     margin-bottom: -5px;
 }
-.Section4-ProductCard img{
+.Section4-ProductCard-ReceptionBar img{
     margin-bottom: 20px;
 }
-.Section4-ProductCard p{
+.Section4-ProductCard-ReceptionBar p{
     font-size: 17px;
     color: black;
     font-family: 'Lora', serif;
@@ -360,12 +362,12 @@ body{
     margin-bottom: 50px;
     margin-top: -20px;
 }
-.Section4-ProductCard span{
+.Section4-ProductCard-ReceptionBar span{
     border: 1px solid #D6D6D6;
     padding: 13px 29px;
     transition: 0.5s ease-out;
 }
-.Section4-ForFlex{
+.Section4-ForFlex-ReceptionBar{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -373,7 +375,7 @@ body{
     margin-right: 4%;
     margin-top: 80px;
 }
-.Section4-ProductCard span:hover{
+.Section4-ProductCard-ReceptionBar span:hover{
     border-color: black;
 }
 
@@ -383,7 +385,7 @@ body{
 
 /* Section 5 Start */
 
-.Section5-Backround{
+.Section5-Backround-ReceptionBar{
     width: 100%;
     height: 983.91px;
     background-color: black;
@@ -391,47 +393,47 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.Section5-Backround img{
+.Section5-Backround-ReceptionBar img{
     width: 814.83px;
     height: 983.91px;
     object-fit: cover;
 }
-.Section5-TextAndLine-ForFlex {
+.Section5-TextAndLine-ForFlex-ReceptionBar {
     margin-bottom: -90px;
 }
-.Section5-TextAndLine-ForFlex h6{
+.Section5-TextAndLine-ForFlex-ReceptionBar h6{
     font-size: 15px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
     color: #D6D6D6;
 }
 
-.Section5-Backround h2{
+.Section5-Backround-ReceptionBar h2{
     font-size: 95px;
     font-family: 'Bebas Neue', cursive;
     white-space: pre-line;
     color: white;
     margin-bottom: -5px;
 }
-.Section5-Backround p{
+.Section5-Backround-ReceptionBar p{
     font-size: 19px;
     font-family: 'Lora', serif;
     color: #D6D6D6;
     white-space: pre-line;
     margin-bottom: 65px;
 }
-.Section5-Backround span{
-    font-family: 'Work Sans', sans-serif;
+.Section5-Backround-ReceptionBar span{
+    font-family: 'Lora', serif;
     font-size: 15px;
     color: white;
     padding: 13px 39px;
     border: 1px solid white; 
     transition: 0.5s ease-in-out;
 }
-.Section5-Backround span:hover{
+.Section5-Backround-ReceptionBar span:hover{
     background-color: white;
     color: black;
 }
-.Section5-TextSide{
+.Section5-TextSide-ReceptionBar{
     margin-top: 14.5%;
     margin-left: 12%;
 }
@@ -439,46 +441,46 @@ body{
 
 
 /* Section 6 Start */
-.Section6-Backround{
+.Section6-Backround-ReceptionBar{
     height: 522.91px;
     width: 100%;
     background-color: black;
     text-align: center;
     padding-top: 9%;
 }
-.Section6-Backround span{
+.Section6-Backround-ReceptionBar span{
     padding: 13px 35px;
     color: white;
     border: 1px solid white;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 15px;
-    transition: 0.3s ease-out;
+    transition: 0.5s ease-out;
 }
-.Section6-Backround span:hover{
+.Section6-Backround-ReceptionBar span:hover{
     background-color: white;
     color: black;
 }
 /* Section 6 End */
 
 /* Section 7 Start */
-.Section7{
+.Section7-ReceptionBar{
     height: 482.02px;
     width: 100%;
 }
-.Section7 img{
+.Section7-ReceptionBar img{
     height: 482.02px;
     width: 100%;
     object-fit: cover;
     position: absolute;
 }
-.Section7-TextSide span{
+.Section7-TextSide-ReceptionBar span{
     font-family: 'Lora', serif;
     color: white;
     width: 1091.22px;
     height: 18px;
     font-size: 19px;
 }
-.Section7-TextSide{
+.Section7-TextSide-ReceptionBar{
     text-align: center;
     position: absolute;
     height: 482.02px;

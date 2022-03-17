@@ -221,16 +221,16 @@ body{
 /* Main Start */
 
 /* Section 1 Start */
-.Section1-ImageSide {
+.Section1-ImageSide-HistoryPage {
     background-color: black;
     width: 100%;
     height: 418.97px;
     position: absolute;
 }
-.Section1-ImageSide img{
+.Section1-ImageSide-HistoryPage img{
     opacity: 0.3;
 }
-.Section1-TextSide h6{
+.Section1-TextSide-HistoryPage h6{
     color: white;
     font-size: 20px;
     font-family: 'Lora', serif;
@@ -238,13 +238,13 @@ body{
     margin-bottom: 34px;
 
 }
-.Section1-TextSide h1{
+.Section1-TextSide-HistoryPage h1{
     color: white;
     font-size: 70px;
     font-family: 'Bebas Neue', cursive;
 
 }
-.Section1-TextSide{
+.Section1-TextSide-HistoryPage{
 
     position: absolute;
     margin-top: 15%;
@@ -254,51 +254,51 @@ body{
 
 /* Section 2 Start */
 
-.Section2-ImageSide{
+.Section2-ImageSide-HistoryPage{
     width: 502.08px;
     height: 662.16px;
 }
-.Section2-ImageSide img{
+.Section2-ImageSide-HistoryPage img{
     position: absolute;
     object-fit: cover;
     transition: 0.5s ease-out;
 }
-.Section2-ImageSide img:hover{
+.Section2-ImageSide-HistoryPage img:hover{
    transform: scale(1.03); 
 }
 
-.Section2-ImageSide  span{
+.Section2-ImageSide-HistoryPage  span{
     position: absolute;
     color: white;
     margin-top: 46%;
     margin-left: 10.7%;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: bolder;
     font-size: 19.5px;
 }
-.Section2-TextSide{
+.Section2-TextSide-HistoryPage{
     margin-top: 25px;
 }
-.Section2-TextSide p{
+.Section2-TextSide-HistoryPage p{
  font-size: 19px;
  color: black;
  white-space: pre-line;
  font-family: 'Lora', serif;
 
 }
-.Section2-TextSide h2{
+.Section2-TextSide-HistoryPage h2{
 color: black;
 font-size: 70px;
 font-family: 'Bebas Neue', cursive;
 white-space: pre-line;
 }
-.Section2-TextSide span{
+.Section2-TextSide-HistoryPage span{
 font-size: 19px;
 font-family: 'Lora', serif;
 white-space: pre-line;
 color: black;
 }
-.Section2-ForFlex{
+.Section2-ForFlex-HistoryPage{
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
@@ -309,7 +309,7 @@ color: black;
 /* Section 2 End */
 
 /* Section 3 Start */
-.Section3-ForFlexAndBackround{
+.Section3-ForFlexAndBackround-HistoryPage{
     background-color: black;
     height: 979.44px;
     width: 100%;
@@ -317,61 +317,63 @@ color: black;
     margin-top: 10%;
 
 }
-.Section3-ImageSide img{
+.Section3-ImageSide-HistoryPage img{
     width: 809.39px;
     height: 979.44px;
     object-fit: cover;
 }
-.Section3-LineAndText-Line{
+.Section3-LineAndText-Line-HistoryPage{
     width: 44.67px;
     border: 1px solid white;
     margin-bottom: 8px;
 }
-.Section3-LineAndText{
+.Section3-LineAndText-HistoryPage{
     display: flex;
     align-items: center;
 }
-.Section3-LineAndText h6{
+.Section3-LineAndText-HistoryPage h6{
     color: #D6D6D6;
     font-size: 15px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
 }
-.Section3-TextSide .Section3-TextSide-ForMargin h2{
+.Section3-TextSide-HistoryPage .Section3-TextSide-ForMargin-HistoryPage h2{
     font-size: 95px;
     font-family: 'Bebas Neue', cursive;
     color: #FFFFFF;
     white-space: pre-line;
 }
-.Section3-TextSide .Section3-TextSide-ForMargin p{
+.Section3-TextSide-HistoryPage .Section3-TextSide-ForMargin-HistoryPage p{
     font-size: 19px;
     font-family: 'Lora', serif;
     color: #D6D6D6;
     white-space: pre-line;
 }
-.Section3-TextSide-ForMargin {
+.Section3-TextSide-ForMargin-HistoryPage {
     margin-left: 75px;
     margin-top: -80px;
 }
-.Section3-TextSide{
+.Section3-TextSide-HistoryPage{
     margin-left: 85px;
     margin-top: 14%;
 }
-.Section3-Border span{
+.Section3-Border-HistoryPage span{
  color: white;
- font-family: 'Work Sans', sans-serif;
+ font-family: 'Lora', serif;
  font-size: 15px;
+ transition: 0.5s ease-out;
+
 }
-.Section3-Border{
+.Section3-Border-HistoryPage{
     border: 1px solid white;
     padding: 13px 29px;
     display: inline-block;
     transition: 0.5s ease-out;
     margin-top: 40px;
 }
-.Section3-Border:hover{
+.Section3-Border-HistoryPage:hover{
     background-color: white;
 }
-.Section3-Border:hover span{
+.Section3-Border-HistoryPage:hover span{
     color: black;
 }
 
@@ -379,20 +381,20 @@ color: black;
 
 /* Section 4 Start */
 
-.Section4-ProductCard{
+.Section4-ProductCard-HistoryPage{
     text-align: center;
    
 }
-.Section4-ProductCard h2{
+.Section4-ProductCard-HistoryPage h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 31px;
     color: black;
     margin-bottom: -5px;
 }
-.Section4-ProductCard img{
+.Section4-ProductCard-HistoryPage img{
     margin-bottom: 20px;
 }
-.Section4-ProductCard p{
+.Section4-ProductCard-HistoryPage p{
     font-size: 17px;
     color: black;
     font-family: 'Lora', serif;
@@ -400,12 +402,12 @@ color: black;
     margin-bottom: 50px;
     margin-top: -20px;
 }
-.Section4-ProductCard span{
+.Section4-ProductCard-HistoryPage span{
     border: 1px solid #D6D6D6;
     padding: 13px 29px;
     transition: 0.5s ease-out;
 }
-.Section4-ForFlex{
+.Section4-ForFlex-HistoryPage{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -413,14 +415,14 @@ color: black;
     margin-right: 4%;
     margin-top: 80px;
 }
-.Section4-ProductCard span:hover{
+.Section4-ProductCard-HistoryPage span:hover{
     border-color: black;
 }
 
 /* Section 4 End */
 
 /* Section 5 Start */
-.Section5-BackroundColor
+.Section5-BackroundColor-HistoryPage
 {
     background-color: black;
     margin-left: 9%;
@@ -429,22 +431,22 @@ color: black;
     height: 410.69px;
     margin-top: 115px;
 }
-.Section5-ForFlex img{
+.Section5-ForFlex-HistoryPage img{
     object-fit: cover;
 }
-.Section5-TextSide h6{
+.Section5-TextSide-HistoryPage h6{
     color: white;
     font-size: 18px;
     font-family: 'Lora', serif;
     margin-bottom: 15px;
 }
-.Section5-TextSide h3{
+.Section5-TextSide-HistoryPage h3{
     color: white;
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
     margin-bottom: -10px;
 }
-.Section5-TextSide p{
+.Section5-TextSide-HistoryPage p{
     color:  white;
     white-space: pre-line;
     font-family: 'Lora', serif;
@@ -452,50 +454,50 @@ color: black;
     margin-bottom: 57px;
 
 }
-.Section5-TextSide{
+.Section5-TextSide-HistoryPage{
     margin-left: 80px;
     margin-top: 80px;
 }
-.Section5-ForFlex{
+.Section5-ForFlex-HistoryPage{
     display: flex;
    
 }
-.Section5-Border{
+.Section5-Border-HistoryPage{
     border: 1px solid white;
     padding: 13px 24px;
     display: inline;
     transition: 0.5s ease-out;
 }
-.Section5-Border span{
+.Section5-Border-HistoryPage span{
     color: white;
     transition: 0.5s ease-out;
 }
-.Section5-Border i{
+.Section5-Border-HistoryPage i{
     margin-right: 10px;
     color: white;
     transition: 0.5s ease-out;
 }
-.Section5-Border:hover{
+.Section5-Border-HistoryPage:hover{
     background-color: white;
 }
-.Section5-Border:hover i,
-.Section5-Border:hover span{
+.Section5-Border-HistoryPage:hover i,
+.Section5-Border-HistoryPage:hover span{
     color: black;
 }
 /* Section 5 End */
 
 /* Section 6 Start */
-.Section6 img{
+.Section6-HistoryPage img{
     object-fit: cover;
     position: absolute;
 }
-.Section6{
+.Section6-HistoryPage{
     margin-top: 93px;
     position: relative;
     height: 759.45px;
     width: 100%;
 }
-.Section6-BackroundColor{
+.Section6-BackroundColor-HistoryPage{
     background-color: black;
     width: 436.48px;
     height: 734.7px;    
@@ -503,32 +505,32 @@ color: black;
     padding-top: 70px;
     padding-left: 70px;
 }
-.Section6-TextAndCostFlex h2{
+.Section6-TextAndCostFlex-HistoryPage h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     color: white;
     white-space: pre-line;
 }
-.Section6-TextAndCostFlex h6{
+.Section6-TextAndCostFlex-HistoryPage h6{
     font-size: 17px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
     color: #D6D6D6;
     margin-top: 15px;
 }
-.Section6-TextAndCostFlex{
+.Section6-TextAndCostFlex-HistoryPage{
     display: flex;
 }
-.Section6-BackroundColor span{
+.Section6-BackroundColor-HistoryPage span{
     font-size: 19px;
     font-family: 'Lora', serif;
     color: #D6D6D6;
     white-space: pre-line;
 }
 
-.Section6-BackroundColor p{
+.Section6-BackroundColor-HistoryPage p{
     font-size: 15px;
     color: white;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
     transition: 0.5s ease-out;
     padding: 13px 29px;
     border: 1px solid #ffffff;
@@ -536,13 +538,13 @@ color: black;
     margin-top: 35px;
 
 }
-.Section6-BackroundColor p:hover{
+.Section6-BackroundColor-HistoryPage p:hover{
     color: black;
     background-color: white;
 
 }
 
-.Section6-Line{
+.Section6-Line-HistoryPage{
     border-top: 1px solid white;
     width: 70px;
     margin-top: 60px;
@@ -551,58 +553,58 @@ color: black;
 /* Section 6 End */
 
 /* Section 7 Start */
-.Section7-Header{
+.Section7-Header-HistoryPage{
     margin-top: 9%;
     text-align: center;
    
 }
-.Section7-Header i{
+.Section7-Header-HistoryPage i{
     font-size: 46px;
     color: black;
     font-family: 'Lora', serif;
 }
-.Section7-Line{
+.Section7-Line-HistoryPage{
     width: 70px;
     border-top: 1px solid #D6D6D6;
     margin-left: 48%;
     margin-top: 15px;
 }
-.Section7-ProductCard img{
+.Section7-ProductCard-HistoryPage img{
     width: 334.72px;
     height: 546.63px;
     object-fit: cover;
     opacity: 0.3;
     position: absolute;
 }
-.Section7-ProductCard:hover{
+.Section7-ProductCard-HistoryPage:hover{
     transform: scale(1.06); 
 }
-.Section7-ProductCard{
+.Section7-ProductCard-HistoryPage{
     background-color: black;
     width: 334.72px;
     height: 546.63px;
     transition: 0.5s ease-out;
 
 }
-.Section7-TextSide{
+.Section7-TextSide-HistoryPage{
     position: absolute;
     width: 334.72px;
     height: 546.63px;
     text-align: center;
     
 }
-.Section7-TextSide h6{
+.Section7-TextSide-HistoryPage h6{
     color: white;
     margin-top: 95px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 19px;
 }
-.Section7-TextSide h2{
+.Section7-TextSide-HistoryPage h2{
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
 }
-.Section7-TextSide p{
+.Section7-TextSide-HistoryPage p{
     white-space: pre-line;
     color: white;
     font-family: 'Lora', serif;
@@ -610,13 +612,13 @@ color: black;
     margin-top: 28px;
     margin-bottom: 48px;
 }
-.Section7-TextSide span{
+.Section7-TextSide-HistoryPage span{
  background-color: black;
  padding: 13px 35px;
  color: white;
- font-family: 'Work Sans', sans-serif;
+ font-family: 'Lora', serif;
 }
-.Section7-ForFlex{
+.Section7-ForFlex-HistoryPage{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
