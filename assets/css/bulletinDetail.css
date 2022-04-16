@@ -5,6 +5,7 @@
 
 }
 
+
 *,*:after,*:before{
     box-sizing: border-box;
 }
@@ -218,440 +219,142 @@ body{
 /* Header End */ 
 
 
-/* Main Start */
-
 /* Section 1 Start */
-.Section1-ImageSide-HistoryPage {
+.Section1-ImageSide-bulletinDetail {
     background-color: black;
     width: 100%;
     height: 418.97px;
     position: absolute;
 }
-.Section1-ImageSide-HistoryPage img{
+.Section1-ImageSide-bulletinDetail img{
     opacity: 0.3;
-    object-fit: cover;
-    height:418.97px; 
-    width:100%;
 }
-.Section1-TextSide-HistoryPage h6{
+.Section1-TextSide-bulletinDetail p{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lora', serif;
     word-spacing:  3px;
-    margin-bottom: 34px;
-
 }
-.Section1-TextSide-HistoryPage h1{
+.Section1-TextSide-bulletinDetail h1{
     color: white;
-    font-size: 70px;
+    font-size: 95px;
     font-family: 'Bebas Neue', cursive;
+    line-height: 1.2;
 
 }
-.Section1-TextSide-HistoryPage{
+.Section1-TextSide-bulletinDetail{
 
     position: absolute;
     margin-top: 15%;
-    margin-left: 10%;
+    text-align: center;
+    width: 100%;
+    height: 418.97px;
 }
 /* Section 1 End */
 
 /* Section 2 Start */
-
-.Section2-ImageSide-HistoryPage{
-    width: 502.08px;
-    height: 662.16px;
-}
-.Section2-ImageSide-HistoryPage img{
-    position: absolute;
-    object-fit: cover;
-    transition: 0.5s ease-out;
-    width:502.08px; 
-    height:662.16px;
-}
-.Section2-ImageSide-HistoryPage img:hover{
-   transform: scale(1.03); 
-}
-
-.Section2-ImageSide-HistoryPage  span{
-    position: absolute;
-    color: white;
-    margin-top: 46%;
-    margin-left: 10.7%;
-    font-family: 'Lora', serif;
-    font-weight: bolder;
-    font-size: 19.5px;
-}
-.Section2-TextSide-HistoryPage{
-    margin-top: 25px;
-}
-.Section2-TextSide-HistoryPage p{
- font-size: 19px;
- color: black;
- white-space: pre-line;
- font-family: 'Lora', serif;
-
-}
-.Section2-TextSide-HistoryPage h2{
-color: black;
-font-size: 70px;
-font-family: 'Bebas Neue', cursive;
-white-space: pre-line;
-}
-.Section2-TextSide-HistoryPage span{
-font-size: 19px;
-font-family: 'Lora', serif;
-white-space: pre-line;
-color: black;
-}
-.Section2-TextSide-HistoryPage img{
-    margin-top: 40px; 
-    width:180px; 
-    height:154px;
-}
-.Section2-ForFlex-HistoryPage{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 90px;
-}
-
-/* Section 2 End */
-
-/* Section 3 Start */
-.Section3-ForFlexAndBackround-HistoryPage{
-    background-color: black;
-    height: 979.44px;
-    width: 100%;
-    display: flex;
-    margin-top: 10%;
-
-}
-.Section3-ImageSide-HistoryPage img{
-    width: 809.39px;
-    height: 979.44px;
+.Section2-ImageSide-bulletinDetail img{
+    width: 502.13px;
+    height: 680.98px;
     object-fit: cover;
 }
-.Section3-LineAndText-Line-HistoryPage{
-    width: 44.67px;
-    border: 1px solid white;
-    margin-bottom: 8px;
-}
-.Section3-LineAndText-HistoryPage{
-    display: flex;
-    align-items: center;
-}
-.Section3-LineAndText-HistoryPage h6{
-    color: #D6D6D6;
-    font-size: 15px;
-    font-family: 'Lora', serif;
-}
-.Section3-TextSide-HistoryPage .Section3-TextSide-ForMargin-HistoryPage h2{
-    font-size: 95px;
-    font-family: 'Bebas Neue', cursive;
-    color: #FFFFFF;
-    white-space: pre-line;
-}
-.Section3-TextSide-HistoryPage .Section3-TextSide-ForMargin-HistoryPage p{
+.Section2-TextSide-bulletinDetail p{
     font-size: 19px;
+    color: black;
     font-family: 'Lora', serif;
-    color: #D6D6D6;
+    white-space: pre-line;
+    margin-bottom: -20px;
+}
+.Section2-TextSide-bulletinDetail h2{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 70px;
+    white-space: pre-line;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.Section2-TextSide-bulletinDetail span{
+    font-size: 19px;
+    color: black;
+    font-family: 'Lora', serif;
     white-space: pre-line;
 }
-.Section3-TextSide-ForMargin-HistoryPage {
-    margin-left: 75px;
-    margin-top: -80px;
+.Section2-TextSide-bulletinDetail img{
+    width: 128.94px;
+    height: 119.25px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    object-fit: cover;
 }
-.Section3-TextSide-HistoryPage{
-    margin-left: 85px;
-    margin-top: 14%;
+.Section2-ForFlex-bulletinDetail{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 11.5%;
+    margin-top: 80px;
 }
-.Section3-Border-HistoryPage span{
- color: white;
- font-family: 'Lora', serif;
- font-size: 15px;
- transition: 0.5s ease-out;
-
-}
-.Section3-Border-HistoryPage{
-    border: 1px solid white;
-    padding: 13px 29px;
-    display: inline-block;
-    transition: 0.5s ease-out;
+.Section2-UnderImage-bulletinDetail{
+    width: 502.13px;
+    height: 346.39px;
+    background-color: #f2f2f2;
+    padding: 52.2031px 52.2031px 41.7656px;
     margin-top: 40px;
 }
-.Section3-Border-HistoryPage:hover{
-    background-color: white;
+.Section2-UnderImage-bulletinDetail p{
+    white-space: pre-line;
+    font-family: 'Lora', serif;
+    font-size: 19px;
 }
-.Section3-Border-HistoryPage:hover span{
-    color: black;
+.Section2-UnderImage-bulletinDetail h3{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
 }
-
-/* Section 3 End */
+.Section2-UnderImage-ForFlex-bulletinDetail{
+    display: flex;
+    justify-content: space-between;
+}
+.Section2-UnderImage-ForFlex-bulletinDetail img{
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    margin-top: 37px;
+}
+/* Section 2 End */
 
 /* Section 4 Start */
-
-.Section4-ProductCard-HistoryPage{
-    text-align: center;
-   
+.Section4-ProductCard-BulletinDetail img{
+width: 188px;
+height: 144px;
+object-fit: cover;
 }
-.Section4-ProductCard-HistoryPage h2{
-    font-family: 'Bebas Neue', cursive;
+.Section4-ForFlex-ProductCart-BulletinDetail{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 25.7%;
+    margin-bottom: 115px;
+}
+.Section4-ProductCard-BulletinDetail{
+    margin-top: 25px;
+}
+.Section4-ProductCard-BulletinDetail h4{
     font-size: 31px;
-    color: black;
+    font-family: 'Bebas Neue', cursive;
+    white-space: pre-line;
+    margin-top: -20px;
     margin-bottom: -5px;
 }
-.Section4-ProductCard-HistoryPage img{
-    margin-bottom: 20px;
-}
-.Section4-ProductCard-HistoryPage p{
-    font-size: 17px;
-    color: black;
+.Section4-ProductCard-BulletinDetail span{
     font-family: 'Lora', serif;
-    white-space: pre-line;
-    margin-bottom: 50px;
-    margin-top: -20px;
+    font-size: 12px;
 }
-.Section4-ProductCard-HistoryPage span{
-    border: 1px solid #D6D6D6;
-    padding: 13px 29px;
-    transition: 0.5s ease-out;
-}
-.Section4-ForFlex-HistoryPage{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 80px;
-}
-.Section4-ProductCard-HistoryPage span:hover{
-    border-color: black;
-}
-
-/* Section 4 End */
-
-/* Section 5 Start */
-.Section5-BackroundColor-HistoryPage
-{
-    background-color: black;
-    margin-left: 9%;
-    margin-right: 9%;
-    width: 84%;
-    height: 410.69px;
-    margin-top: 115px;
-}
-.Section5-ForFlex-HistoryPage img{
-    object-fit: cover;
-    width:545.61px;
-    height:410.69px;
-}
-.Section5-TextSide-HistoryPage h6{
-    color: white;
+.Section4-BulletinDetail h3{
+    font-family: 'Bebas Neue', cursive;
     font-size: 18px;
-    font-family: 'Lora', serif;
-    margin-bottom: 15px;
+    margin-left: 25.7%;
 }
-.Section5-TextSide-HistoryPage h3{
-    color: white;
-    font-size: 50px;
-    font-family: 'Bebas Neue', cursive;
-    margin-bottom: -10px;
-}
-.Section5-TextSide-HistoryPage p{
-    color:  white;
-    white-space: pre-line;
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    margin-bottom: 57px;
-
-}
-.Section5-TextSide-HistoryPage{
-    margin-left: 80px;
-    margin-top: 80px;
-}
-.Section5-ForFlex-HistoryPage{
-    display: flex;
-   
-}
-.Section5-Border-HistoryPage{
-    border: 1px solid white;
-    padding: 13px 24px;
-    display: inline;
-    transition: 0.5s ease-out;
-}
-.Section5-Border-HistoryPage span{
-    color: white;
-    transition: 0.5s ease-out;
-}
-.Section5-Border-HistoryPage i{
-    margin-right: 10px;
-    color: white;
-    transition: 0.5s ease-out;
-}
-.Section5-Border-HistoryPage:hover{
-    background-color: white;
-}
-.Section5-Border-HistoryPage:hover i,
-.Section5-Border-HistoryPage:hover span{
-    color: black;
-}
-/* Section 5 End */
-
-/* Section 6 Start */
-.Section6-HistoryPage img{
-    object-fit: cover;
-    position: absolute;
-    height:759.45px;
-    width: 100%;
-}
-.Section6-HistoryPage{
-    margin-top: 93px;
-    position: relative;
-    height: 759.45px;
-    width: 100%;
-}
-.Section6-BackroundColor-HistoryPage{
-    background-color: black;
-    width: 436.48px;
-    height: 734.7px;    
-    position: absolute;
-    padding-top: 70px;
-    padding-left: 70px;
-}
-.Section6-TextAndCostFlex-HistoryPage h2{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 70px;
-    color: white;
-    white-space: pre-line;
-    margin: 0;
-    display: inline-block;
-}
-.Section6-TextAndCostFlex-HistoryPage h6{
-    font-size: 17px;
-    font-family: 'Lora', serif;
-    color: #D6D6D6;
-    margin-top: 15px;
-}
-.Section6-TextAndCostFlex-HistoryPage{
-    display: flex;
-    
-}
-.Section6-BackroundColor-HistoryPage span{
-    font-size: 19px;
-    font-family: 'Lora', serif;
-    color: #D6D6D6;
-    white-space: pre-line;
-}
-
-.Section6-BackroundColor-HistoryPage p{
-    font-size: 15px;
-    color: white;
-    font-family: 'Lora', serif;
-    transition: 0.5s ease-out;
-    padding: 13px 29px;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    margin-top: 35px;
-
-}
-.Section6-BackroundColor-HistoryPage p:hover{
-    color: black;
-    background-color: white;
-
-}
-
-.Section6-Line-HistoryPage{
-    border-top: 1px solid white;
-    width: 70px;
-    margin-top: 60px;
-    margin-bottom: 15px;
-}
-/* Section 6 End */
-
-/* Section 7 Start */
-.Section7-Header-HistoryPage{
-    margin-top: 9%;
-    text-align: center;
-   
-}
-.Section7-Header-HistoryPage i{
-    font-size: 46px;
-    color: black;
-    font-family: 'Lora', serif;
-}
-.Section7-Line-HistoryPage{
-    width: 70px;
-    border-top: 1px solid #D6D6D6;
-    margin-left: 48%;
-    margin-top: 15px;
-}
-.Section7-ProductCard-HistoryPage img{
-    width: 334.72px;
-    height: 546.63px;
-    object-fit: cover;
-    opacity: 0.3;
-    position: absolute;
-}
-.Section7-ProductCard-HistoryPage:hover{
-    transform: scale(1.06); 
-}
-.Section7-ProductCard-HistoryPage{
-    background-color: black;
-    width: 334.72px;
-    height: 546.63px;
-    transition: 0.5s ease-out;
-
-}
-.Section7-TextSide-HistoryPage{
-    position: absolute;
-    width: 334.72px;
-    height: 546.63px;
-    text-align: center;
-    
-}
-.Section7-TextSide-HistoryPage h6{
-    color: white;
-    margin-top: 95px;
-    font-family: 'Lora', serif;
-    font-size: 19px;
-}
-.Section7-TextSide-HistoryPage h2{
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-}
-.Section7-TextSide-HistoryPage p{
-    white-space: pre-line;
-    color: white;
-    font-family: 'Lora', serif;
-    font-size: 20px;
-    margin-top: 28px;
-    margin-bottom: 48px;
-}
-.Section7-TextSide-HistoryPage span{
- background-color: black;
- padding: 13px 35px;
- color: white;
- font-family: 'Lora', serif;
-}
-.Section7-ForFlex-HistoryPage{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 100px;
-    margin-top: 50px;
-}
-/* Section 7 End */
-
-
-/* Main End */
-
-
-
-
+/* Section 4 End  */
 
 /* Footer Start */
 
@@ -688,6 +391,9 @@ color: #D6D6D6;
     margin-left: 15px;
     transition: 0.5s ease-out;
     margin-top: 50px;
+
+
+
 }
 .Footer-SocialBorder i{
    font-size: 15px;

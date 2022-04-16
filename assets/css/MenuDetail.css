@@ -264,6 +264,7 @@ body{
 .Section2-ImageSide-MenuDetail img{
     width: 523.86px;
     height: 599.8px;
+    object-fit: cover;
 }
 .Section2-SecoundSide-BorderForFlex-MenuDetail{
     display: flex;
